@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>To dos</title>
+  </head>
+  <body>
+    <div class="left">
+      <div class="wrap">
+        TO DO:
+        <input id="todo-input" />
+        <input type="submit" value="Add" onclick="addItem();" />
+        <input type="date" id="due-date" onchange="addDate();" />
+      </div>
+    </div>
+
+    <div class="right">
+        <table id="todo-container" class="wrap">
+            
+        </table>
+     
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

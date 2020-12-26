@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .left,
+  .right,{
+    height: 100vh;
+  }
+  
+  .left {
+    border-right: 2px solid black;
+  }
+  table{
+      width: 100%;
+
+
+  }
+  td{
+      padding: 10px;
+      white-space: nowrap;
+  }
+  
+  
+  .wrap {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  .tableNotUrgent{
+    background-color: aqua;
+  }
+  .tableUrgent{
+    background-color:red;
+  }
